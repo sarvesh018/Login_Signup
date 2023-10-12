@@ -21,10 +21,10 @@ function Login() {
             />
           </div>
           <div className="flex items-center justify-left mt-2 text-[#434343dd]">
-            <a href="">Forgot Password?</a>
+            <a href="" className="hover:text-[black]">Forgot Password?</a>
           </div>
           <div className="flex items-center justify-center mt-12">
-            <button className="bg-[#296bf8] w-[100%] font-sans text-[white] text-xl py-2 rounded-lg">
+            <button className="bg-[#296bf8] w-[100%] font-sans text-[white] text-xl py-2 rounded-lg hover:bg-[#0051ff]">
               Login
             </button>
           </div>
