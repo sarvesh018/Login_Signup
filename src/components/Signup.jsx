@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import Signup from "./Signup";
-// import { Link, Switch, Route, Router } from "react-router-dom";
 
-function Login() {
+function Signup() {
   return (
     <div className="flex items-center justify-center h-[80vh] ">
       <div className="bg-[#e3e3e3] shadow-2xl rounded-xm">
-        <div className="mb-8 font-sans text-4xl bg-[#296bf8] rounded-sm py-8 font-extrabold text-white">LOGIN</div>
+        <div className="mb-8 font-sans text-4xl bg-[#296bf8] rounded-sm py-8 font-extrabold text-white">SIGNUP</div>
         <form action="" className="font-serif px-20 py-10">
           <div className="flex items-center justify-center mb-8">
             <input
@@ -31,18 +29,12 @@ function Login() {
             </button>
           </div>
           <div className="flex items-center justify-center mt-8">
-            {/* Not a user? <Link to={Signup} className="text-[#296bf8] px-1">Sign Up</Link> */}
-            {/* <Route path="/signup" component={Signup}/> */}
+            Already a user? <a href="" className="text-[#296bf8] px-1">Login</a>
           </div>
-          {/* <Router>
-            <Switch>
-              <Route  path="/signup" component={Signup}/>
-            </Switch> */}
-          {/* </Router> */}
         </form>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Signup;
