@@ -31,14 +31,14 @@ function Login() {
             </button>
           </div>
           <div className="flex items-center justify-center mt-8">
-            {/* Not a user? <Link to={Signup} className="text-[#296bf8] px-1">Sign Up</Link> */}
-            {/* <Route path="/signup" component={Signup}/> */}
+            Not a user? <Link to={Signup} className="text-[#296bf8] px-1">Sign Up</Link>
+             <Route path="/signup" component={Signup}/>
           </div>
-          {/* <Router>
+          <Router>
             <Switch>
               <Route  path="/signup" component={Signup}/>
-            </Switch> */}
-          {/* </Router> */}
+            </Switch>
+          </Router>
         </form>
       </div>
     </div>
