@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Signup from "./Signup";
-// import { Link, Switch, Route, Router } from "react-router-dom";
+import { useNavigate, Link} from "react-router-dom";
 
 function Login() {
   return (
@@ -31,14 +31,8 @@ function Login() {
             </button>
           </div>
           <div className="flex items-center justify-center mt-8">
-            Not a user? <Link to={Signup} className="text-[#296bf8] px-1">Sign Up</Link>
-             <Route path="/signup" component={Signup}/>
+            Not a user? <Link to="/signup" className="text-[#296bf8] px-1">Sign Up</Link>
           </div>
-          <Router>
-            <Switch>
-              <Route  path="/signup" component={Signup}/>
-            </Switch>
-          </Router>
         </form>
       </div>
     </div>
