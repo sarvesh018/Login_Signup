@@ -8,7 +8,7 @@ function Login() {
       <div className="bg-[#e3e3e3] shadow-2xl rounded-xm">
         <div className="mb-8 font-sans text-4xl bg-[#296bf8] rounded-sm py-8 font-extrabold text-white">LOGIN</div>
         <form action="" className="font-serif px-20 py-10">
-          <div className="flex items-center justify-center mb-8">
+          <div className="flex items-center justify-center mb-8" >
             <input
               className="px-4 h-[50px] rounded-lg w-[45vh] md:w-[50vh] border-[#5252526a] border-[1px]"
               type="text"
